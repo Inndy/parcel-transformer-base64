@@ -1,0 +1,19 @@
+{
+  "name": "parcel-transformer-base64",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/TransformerBase64.js",
+  "main": "lib/TransformerBase64.js",
+  "engines": {
+    "node": ">= 16.0.0",
+    "parcel": "^2.7.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10"
+  }
+}
